@@ -1,7 +1,4 @@
-import React from 'react'
-import SmallEmblaCarousel from './carousel/SmallEmblaCarousel'
 import { projects } from '../data/constants'
-import Collection from './Collection'
 import ImageEmblaCarousel from './carousel/ImageEmblaCarousel'
 
 function Projects() {

@@ -1,8 +1,7 @@
 import React from 'react'
 import SmallEmblaCarousel from './carousel/SmallEmblaCarousel'
 import { EmblaOptionsType } from 'embla-carousel'
-import { newArrivals } from '../data/constants.ts'
-import Link from 'next/link'
+import { newArrivals } from '@data/constants'
 
 const ProductsSection = () => {
     const SMALLOPTIONS: EmblaOptionsType = { align: 'center' }

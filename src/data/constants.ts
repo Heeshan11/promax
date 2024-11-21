@@ -238,7 +238,7 @@ export const subCategoriesProducts = [
 export const projects = [
     {
         id: 1,
-        image: ["/categories/OFFICE.webp"],
+        image: "/categories/OFFICE.webp",
         title: "OFFICE FURNITURE",
         category: subCategories.Office,
         desc: "Superman, office modular sofa has different module, you can make different shapes of sofas for different office Spaces. This sofa is suitable for reception area, public leisure area, conference room and other different office space."
