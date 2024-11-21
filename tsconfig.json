@@ -2,7 +2,7 @@
   "compilerOptions": {
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "types": ["node"],
+    "types": ["vite/client", "rollup"],
     "target": "ES6",
     "lib": ["es6", "dom"],
     "baseUrl": ".",
