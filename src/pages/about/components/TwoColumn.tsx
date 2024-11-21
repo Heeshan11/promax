@@ -1,4 +1,3 @@
-import React from "react";
 
 const TwoColumn = ({ title, data, isReverse = false }: { title: string, data: string, isReverse?: boolean }) => {
     const textArray = ["Next.js Boilerplate", "for Your Business"];

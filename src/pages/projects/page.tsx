@@ -1,6 +1,4 @@
-'use client';
-import EmblaThumbCarousel from '../components/carousel/EmblaThumbCarousel';
-import ImageEmblaCarousel from '../components/carousel/ImageEmblaCarousel';
+import EmblaThumbCarousel from "@components/carousel/EmblaThumbCarousel";
 
 const projects = [
     {
@@ -32,7 +30,6 @@ const projects = [
 ];
 
 function Page() {
-    const SLIDES = Array.from(Array(10).keys());
 
     return (
         <div className='pt-12'>

@@ -1,5 +1,4 @@
-import React from 'react';
-import { bio } from '../../../data/constants';
+import { bio } from '@data/constants';
 
 const Collaboration = () => {
     const productUrl = "https://www.uispairfurniture.com/office-furniture/soft-seating/office-modular-couch.html"; // Replace with the actual product URL

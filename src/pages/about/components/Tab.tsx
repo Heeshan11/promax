@@ -1,6 +1,6 @@
 import { useState } from "react";
 import TwoColumn from "./TwoColumn";
-import { bio } from "../../../data/constants";
+import { bio } from "@data/constants";
 
 export default function Tab() {
   const [activeTab, setActiveTab] = useState(0);

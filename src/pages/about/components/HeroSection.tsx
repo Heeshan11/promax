@@ -1,6 +1,5 @@
-import React from "react";
 import { motion } from "framer-motion";
-import { bio } from "../../../data/constants";
+import { bio } from "@data/constants";
 
 const HeroSection = () => {
   return (
