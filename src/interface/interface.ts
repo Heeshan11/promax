@@ -16,9 +16,9 @@ export interface IAboutDetail {
 export interface Iproject {
   title: string,
   description: string,
-  cate: string,
+  cate?: string,
   id: number,
-  image: string[]
+  images: []
 }
 
 

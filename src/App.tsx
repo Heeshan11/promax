@@ -9,6 +9,7 @@ import ProductDetails from "@pages/ProductDetails/ProductDetails"
 import Footer from "@components/Footer"
 import Solution from "@pages/solutions/Solutions"
 import { MainProvider } from "./context/MainProvider"
+import ConditionalFooter from "./constants/ConditionalFooter"
 
 
 const App = () => {
@@ -27,7 +28,7 @@ const App = () => {
             <Route path="/products" element={<Products />} />
             <Route path="/products/:id" element={<ProductDetails />} />
           </Routes>
-          <Footer />
+          <ConditionalFooter />
         </MainProvider>
       </div>
     </Router>

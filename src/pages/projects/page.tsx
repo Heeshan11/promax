@@ -2,6 +2,7 @@ import EmblaThumbCarousel from "@components/carousel/EmblaThumbCarousel";
 
 const projects = [
     {
+        id: 1,
         title: 'Project One',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque distinctio tempore voluptatum est perspiciatis, voluptas harum non amet, odio ipsam cum id aperiam aliquid, vel ullam et necessitatibus nihil quisquam.',
         images: [
@@ -11,6 +12,7 @@ const projects = [
         ],
     },
     {
+        id: 2,
         title: 'Project Two',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque distinctio tempore voluptatum est perspiciatis, voluptas harum non amet, odio ipsam cum id aperiam aliquid, vel ullam et necessitatibus nihil quisquam.',
         images: [
@@ -19,6 +21,7 @@ const projects = [
         ],
     },
     {
+        id: 3,
         title: 'Project Three',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque distinctio tempore voluptatum est perspiciatis, voluptas harum non amet, odio ipsam cum id aperiam aliquid, vel ullam et necessitatibus nihil quisquam.',
         images: [
@@ -36,8 +39,7 @@ function Page() {
             {projects.map((project, index) => {
                 const isEven = index % 2 === 0; // Check if index is even
                 return (
-                    <div className={`flex pt-24 flex-col md:flex-row gap-4 p-6 ${
-                            isEven ? '' : 'md:flex-row-reverse'
+                    <div className={`flex pt-24 flex-col md:flex-row gap-4 p-6 ${isEven ? '' : 'md:flex-row-reverse'
                         }`} key={index}>
                         {/* Left Side - Details */}
                         <div className="md:w-1/2">

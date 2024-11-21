@@ -1,8 +1,7 @@
 import React from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
-import { IService } from '@/app/interface/interface'
 import ViewBtn from '../ViewBtn'
-import WatermarkedImage from '../WaterMark'
+import { IService } from '@app/interface/interface'
 
 type PropType = {
   data: IService[]
