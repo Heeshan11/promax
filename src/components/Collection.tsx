@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import { textSlice } from '../constants/ReusableFn.ts';
-import { ourSolutions } from '../data/constants.ts';
+import { ourSolutions } from '@data/constants';
+import { textSlice } from '@app/constants/ReusableFn';
 
 
 const Collection = () => {
