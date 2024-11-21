@@ -2,6 +2,7 @@
   "compilerOptions": {
     "moduleResolution": "node",
     "esModuleInterop": true,
+    "types": ["node"],
     "target": "ES6",
     "lib": ["es6", "dom"],
     "baseUrl": ".",
