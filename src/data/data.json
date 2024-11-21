@@ -1,0 +1,46 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Commercial"
+        },
+        {
+            "id": 2,
+            "name": "Hospitality"
+        },
+        {
+            "id": 3,
+            "name": "Educational"
+        },
+        {
+            "id": 4,
+            "name": "Healthcare"
+        },
+        {
+            "id": 5,
+            "name": "PublicSpaces"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Sample Name 1",
+            "description": "This is a sample description for item 1.",
+            "category_id": 1,
+            "images": [
+                "image1.jpg",
+                "image2.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Sample Name 2",
+            "description": "This is a sample description for item 2.",
+            "category_id": 2,
+            "images": [
+                "image3.jpg",
+                "image4.jpg"
+            ]
+        }
+    ]
+}

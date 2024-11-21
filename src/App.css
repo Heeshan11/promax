@@ -1,0 +1,141 @@
+
+body{
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+nav {
+  background: #00000042;
+  -webkit-box-shadow: 10px 10px 30px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 30px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.55);
+}
+
+.heading_text {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: italic;
+
+}
+
+/* card */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* Five columns */
+  gap: 20px;
+  /* Spacing between the cards */
+  padding: 20px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.image-container {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+.image-container img {
+  /* transition: transform .3s ease-in; */
+  transition: transform 0.8s cubic-bezier(0.5, 1.5, 0.5, 1); /* Custom easing */
+  width: 100%;
+  height: 150px;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+  /* Zoom effect on hover */
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .card-grid {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .card-grid {
+      grid-template-columns: repeat(3, 1fr); /* 2 columns for tablets and small screens */
+  }
+}
+
+@media (max-width: 525px) {
+  .card-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets and small screens */
+  }
+}
+@media (max-width: 350px) {
+  .card-grid {
+      grid-template-columns: 2fr; /* 1 column for very small screens (e.g., phones) */
+  }
+}
+
+
+/* animation button */
+
+
+.animation_button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.animation_button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.animation_button:hover span {
+  padding-right: 25px;
+}
+
+.animation_button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+/* typeeriter */
+
+/* globals.css *//* components/Marquee.module.css */
+
+.marqueeContainer {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  background-color: transparent
+}
+
+.marquee {
+  display: inline-block;
+  padding-left: 100%; /* Start from outside view */
+  animation: marquee 30s linear infinite;
+}
+
+.glow {
+text-shadow: 0 0 3px #8fc041, 5px 0 8px #f08f41;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

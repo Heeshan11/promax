@@ -1,0 +1,11 @@
+.collageImg{
+    transition: transform 0.8s cubic-bezier(0.5, 1.5, 0.5, 1); /* Custom easing */
+}
+.collageImg:hover{
+    transform: scale(1.1);
+}
+.card-container {
+    overflow: hidden; /* Contain the zoom within the card */
+  
+
+}
