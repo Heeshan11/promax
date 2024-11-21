@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "target": "ES6",
+    "lib": ["es6", "dom"],
     "baseUrl": ".",
     "paths": {
       "@data/*": ["src/data/*"],

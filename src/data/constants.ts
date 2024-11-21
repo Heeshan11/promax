@@ -210,7 +210,7 @@ export const subCategoriesProducts = [
         id: 3,
         image: '/categories/restaurant.jpg',
         title: "Restaurant Tables + Desks",
-        category: subCategories.restaurant,
+        category: subCategories.Restaurant,
         desc: "This light-colored wood is durable and aesthetically pleasing and is commonly used in classroom desks, requiring a sleek finish. Birch’s uniform texture and ability to take on various finishes, from natural to painted, make it a versatile choice for school furniture. It’s also valued for its strength-to-weight ratio, providing sturdy yet manageable pieces ideal for children’s classroom tables."
     },
     {
@@ -224,14 +224,14 @@ export const subCategoriesProducts = [
         id: 4,
         image: '/categories/street.jpg',
         title: "Street Tables",
-        category: subCategories.street,
+        category: subCategories.Street,
         desc: "The Modern Design Reception Single Covers Sofa provides a versatile modular sectional fit for public areas. Its sleek, contemporary style offers both comfort and resilience, making it suitable for reception spaces, lobbies, or lounges."
     },
     {
         id: 5,
         image: '/categories/desk.webp',
         title: "Desks + Tables",
-        category: subCategories.desk,
+        category: subCategories.Desk,
         desc: "Optimize your office layout with our Modern Modular Office Furniture, designed to enhance productivity and space efficiency. This versatile set offers a sleek table for cubicle workstations complemented by durable yet soundproof office partitions providing privacy."
     }
 ]

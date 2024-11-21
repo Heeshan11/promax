@@ -25,5 +25,5 @@ export interface Iproject {
 export interface IProduct {
   id: number,
   image: string,
-  category:string
+  category?:string
 }

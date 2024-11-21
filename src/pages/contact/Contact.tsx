@@ -75,13 +75,14 @@ const Contact = () => {
                                 Message
                             </label>
                             <textarea
-                                id="message"
-                                name="message"
-                                value={formData.message}
-                                onChange={handleChange}
-                                required
-                                className="w-full px-3 py-2 bg-gradient-to-tl from-gray-900 to-[#040406] focus:outline-none focus:ring-0 focus:border-b-violet-300 border-b-violet-300	border-b-[1px] "
-                                rows="5"
+                              id="message"
+                              name="message"
+                              value={formData.message}
+                              onChange={handleChange}
+                              required
+                              className="w-full px-3 py-2 bg-gradient-to-tl from-gray-900 to-[#040406] focus:outline-none focus:ring-0 focus:border-b-violet-300 border-b-violet-300	border-b-[1px] resize-none"
+                              rows={5}
+                              style={{ height: "150px" }}
                             ></textarea>
                         </div>
                         <button

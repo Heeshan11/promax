@@ -1,4 +1,4 @@
-import { BrowserRouter as Router,Routes,Route } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import HomePage from "@pages/HomePage"
 import About from "@pages/about/About"
 import { banners } from "@data/constants"
@@ -12,25 +12,22 @@ import { MainProvider } from "./context/MainProvider"
 
 
 const App = () => {
-
- 
-    
   return (
-  
+
     <Router>
       <div>
         <MainProvider>
 
-        <Navigation/>
-        <Routes>
-          <Route path="/" element={<HomePage data={banners}/>}/>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/contact" element={<Contact/>}/>
-          <Route path="/solutions" element={<Solution/>}/>
-          <Route path="/products" element={<Products/>}/>
-          <Route path="/products/:id" element={<ProductDetails/>}/>
-        </Routes>
-        <Footer/>
+          <Navigation />
+          <Routes>
+            <Route path="/" element={<HomePage data={banners} />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/solutions" element={<Solution />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/products/:id" element={<ProductDetails />} />
+          </Routes>
+          <Footer />
         </MainProvider>
       </div>
     </Router>
