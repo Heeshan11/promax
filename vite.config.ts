@@ -4,6 +4,9 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
+  build: {
+    outDir: 'dist', // Ensure this is set to "dist"
+  },
   resolve: {
     alias: {
       '@pages': path.resolve(__dirname, './src/pages'),
