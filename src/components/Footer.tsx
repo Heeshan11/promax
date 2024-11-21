@@ -1,10 +1,11 @@
 import { IoLocationOutline, IoCallOutline, IoMailOpenOutline } from "react-icons/io5";
 import { bio, contacts, quickLinks } from "../data/constants";
 import { Link } from "react-router-dom";
+import { IconType } from "react-icons";
 
 // components/Footer.js
 export default function Footer() {
-  const iconMap = {
+  const iconMap: Record<string, IconType> = {
     call: IoCallOutline,
     location: IoLocationOutline,
     mail: IoMailOpenOutline

@@ -10,11 +10,11 @@ const Contact = () => {
         message: '',
     });
 
-    const handleChange = (e) => {
+    const handleChange =(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>)  => {
         const { name, value } = e.target;
         setFormData((prevData) => ({ ...prevData, [name]: value }));
     };
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         // Handle form submission here, such as sending data to an API endpoint
         emailjs.send('service_jfhebpf', 'template_26oudub', {

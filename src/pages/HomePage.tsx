@@ -4,11 +4,12 @@ import Collection from '@components/Collection'
 import Divider from '@components/Divider'
 import ProductsSection from '@components/ProductsSection'
 import Projects from '@components/Projects'
+import { banners } from '@data/constants'
 
-const HomePage = ({ data }) => {
+const HomePage = () => {
   return (
     <>
-      <EmblaCarousel data={data} />
+      <EmblaCarousel data={banners} />
       <div>
         <div className="m-4 mb-4">
           <p className="heading_text m-5 text-center text-2xl  text-gray-800">Our Soulutions </p>

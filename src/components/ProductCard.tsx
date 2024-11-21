@@ -3,8 +3,9 @@ import { bio } from '../data/constants';
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 import { useState, useEffect } from 'react';
+import { IProduct } from '@app/interface/interface';
 
-const ProductCard = ({ products }) => {
+const ProductCard = ({ products }: { products: IProduct[] }) => {
     const phoneNumber = bio.phone; // WhatsApp number for sharing
     const itemVariants = {
         hidden: { opacity: 0, y: 50 }, // Initial state (hidden)

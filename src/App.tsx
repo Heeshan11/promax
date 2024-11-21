@@ -6,7 +6,6 @@ import Navigation from "@components/Navigation"
 import Contact from "@pages/contact/Contact"
 import Products from "@pages/products/Products"
 import ProductDetails from "@pages/ProductDetails/ProductDetails"
-import Footer from "@components/Footer"
 import Solution from "@pages/solutions/Solutions"
 import { MainProvider } from "./context/MainProvider"
 import ConditionalFooter from "./constants/ConditionalFooter"
@@ -21,7 +20,7 @@ const App = () => {
 
           <Navigation />
           <Routes>
-            <Route path="/" element={<HomePage data={banners} />} />
+            <Route path="/" element={<HomePage/>} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/solutions" element={<Solution />} />

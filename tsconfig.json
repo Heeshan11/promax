@@ -1,17 +1,19 @@
 {
   "compilerOptions": {
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "types": ["node"],
-    "target": "ES6",
-    "lib": ["es6", "dom"],
-    "baseUrl": ".",
+    "baseUrl": ".", // Required for path mappings
     "paths": {
-      "@data/*": ["src/data/*"],
+      "@pages/*": ["src/pages/*"],
       "@components/*": ["src/components/*"],
-      "@app/*": ["src/*"],
-      "@pages/*": ["src/pages/*"]
+      "@data/*": ["src/data/*"],
+      "@app/*": ["src/*"]
     },
-    "jsx": "react-jsx"
+    "target": "ES6",
+    "moduleResolution": "node",
+    "lib": ["ES6", "DOM"],
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true
   }
 }
