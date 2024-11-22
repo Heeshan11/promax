@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { useScrollToTop } from "@app/context/MainProvider";
 const Products = () => {
     const location = useLocation();
-    const { title } = location.state || { title: '' };
+    const { title } = location.state || { title: 'All Products' };
     const [data, setData] = useState([]);
     const [visibleData, setVisibleData] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
