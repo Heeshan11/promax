@@ -2,6 +2,7 @@
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import { IProduct, Iproject } from '@app/interface/interface'
+import WatermarkedImage from '@components/WatermarkedImage';
 
 
 interface ProductCardProps {
@@ -17,13 +18,13 @@ const EmblaCarousel: React.FC<ProductCardProps>= ({ data }) => {
         <div className="embla__container">
           {data.map((banner, index) => (
             <div className="embla__slide" key={index}>
-              {/* <WatermarkedImage imageUrl={banner.image} imgStyle={"embla__slide__img"} targetHeight={500}/> */}
-              <img
+              <WatermarkedImage imageUrl={banner.image} imgStyle={"embla__slide__img"} targetHeight={500}/>
+              {/* <img
                 className="embla__slide__img "
                 src={banner.image}
                 alt="Your alt text"
 
-              />
+              /> */}
             </div>
           ))}
         </div>

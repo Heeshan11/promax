@@ -307,9 +307,9 @@ export const sofaProducts = generateProducts(subCategories.Seating, 9, '/commerc
 export const sitingProducts = [...office_chair,...sofaProducts]
 export const restaurantProducts = generateProducts(subCategories.Restaurant, 8, '/restu/rest');
 export const tblProducts = generateProducts(subCategories.Desk, 7, '/table/tbl');
-export const AllProducts = [...commericalProducts, ...educationProducts, ...healthCareProducts, ...hospitalityProducts, ...publicSpaceProducts]
+export const AllSolutionProducts = [...commericalProducts, ...educationProducts, ...healthCareProducts, ...hospitalityProducts, ...publicSpaceProducts]
 
-console.log(AllProducts);
+console.log(AllSolutionProducts);
 export const ourSolutions = [
     {
         id: 2,

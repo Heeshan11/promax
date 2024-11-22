@@ -7,7 +7,7 @@ interface WatermarkProps {
   targetHeight: number;
 }
 
-const Watermark: React.FC<WatermarkProps> = ({ imageUrl, logoUrl = '/logo.png', imgStyle, targetHeight }) => {
+const WatermarkedImage: React.FC<WatermarkProps> = ({ imageUrl, logoUrl = '/logo.png', imgStyle, targetHeight }) => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const containerRef = useRef<HTMLDivElement | null>(null);
   const [watermarkedImage, setWatermarkedImage] = useState<string | null>(null);
@@ -73,4 +73,4 @@ const Watermark: React.FC<WatermarkProps> = ({ imageUrl, logoUrl = '/logo.png', 
   );
 };
 
-export default Watermark;
+export default WatermarkedImage;
