@@ -23,7 +23,7 @@ export interface Iproject {
 
 
 export interface IProduct {
-  uid:string,
+  uid?:string,
   id: number,
   image: string,
   category?:string
