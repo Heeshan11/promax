@@ -9,15 +9,8 @@ const ProductDetails = ({ }) => {
   const location = useLocation();
   const params = useParams()
   const uid = params.id
-
-
-  // // Retrieve the hidden data
-  // const title = urlParams.get('title'); // "Hos1"
-  // const category = urlParams.get('category'); // "Hospitality"
-  const phoneNumber = bio.phone; // WhatsApp number for sharing
-
   const { title, category } = location.state || { title: '' };
-  const productUrl = `https://promax-oid0.onrender.com/product/${title}`;
+  const productUrl = `https://promax-oid0.onrender.com/product/${uid}`;
 
   // Generate the WhatsApp message
   const whatsappMessage =
