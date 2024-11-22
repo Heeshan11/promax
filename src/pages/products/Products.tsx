@@ -20,7 +20,7 @@ import { useScrollToTop } from "@app/context/MainProvider";
 
 const Products = () => {
   const location = useLocation();
-  const { title } = location.state || { title: '' };
+  const { title } = location.state || { title: 'All Products' };
   const [data, setData] = useState<IProduct[]>([]);
   const [visibleData, setVisibleData] = useState<IProduct[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
