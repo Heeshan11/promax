@@ -9,6 +9,8 @@ const ProductDetails = ({ }) => {
   const location = useLocation();
   const params = useParams()
   const uid = params.id
+  const phoneNumber = bio.phone; 
+
   const { title, category } = location.state || { title: '' };
   const productUrl = `https://promax-oid0.onrender.com/product/${uid}`;
 
