@@ -1,7 +1,7 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import { useLocation } from "react-router-dom";
 import ProductCard from "@components/ProductCard";
-import { AllProducts, commericalProducts, educationProducts, healthCareProducts, hospitalityProducts, MainCategories, office_chair, publicSpaceProducts, restaurantProducts, sitingProducts, subCategories, tblProducts } from "@data/constants";
+import { AllSolutionProducts, commericalProducts, educationProducts, healthCareProducts, hospitalityProducts, MainCategories, office_chair, publicSpaceProducts, restaurantProducts, sitingProducts, subCategories, tblProducts } from "@data/constants";
 import { useEffect, useState } from "react";
 import { useScrollToTop } from "@app/context/MainProvider";
 const Products = () => {
@@ -44,7 +44,7 @@ const Products = () => {
                 products = tblProducts;
                 break;
             case "All Products":
-                products = AllProducts;
+                products = AllSolutionProducts;
                 break;
             default:
                 break;
@@ -57,6 +57,8 @@ const Products = () => {
             setVisibleData([]);
         }
     }, [title]);
+    console.log(AllSolutionProducts);
+    console.log(tblProducts);
     const handleSeeMore = () => {
         const nextPage = currentPage + 1;
         const startIndex = currentPage * itemsPerPage;

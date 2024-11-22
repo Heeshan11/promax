@@ -10,6 +10,6 @@ import Solution from "@pages/solutions/Solutions";
 import { MainProvider } from "./context/MainProvider";
 import ConditionalFooter from "./constants/ConditionalFooter";
 const App = () => {
-    return (_jsx(Router, { children: _jsx("div", { children: _jsxs(MainProvider, { children: [_jsx(Navigation, {}), _jsxs(Routes, { children: [_jsx(Route, { path: "/", element: _jsx(HomePage, {}) }), _jsx(Route, { path: "/about", element: _jsx(About, {}) }), _jsx(Route, { path: "/contact", element: _jsx(Contact, {}) }), _jsx(Route, { path: "/solutions", element: _jsx(Solution, {}) }), _jsx(Route, { path: "/products", element: _jsx(Products, {}) }), _jsx(Route, { path: "/products/:id", element: _jsx(ProductDetails, {}) })] }), _jsx(ConditionalFooter, {})] }) }) }));
+    return (_jsx(Router, { children: _jsx("div", { children: _jsxs(MainProvider, { children: [_jsx(Navigation, {}), _jsxs(Routes, { children: [_jsx(Route, { path: "/", element: _jsx(HomePage, {}) }), _jsx(Route, { path: "/about", element: _jsx(About, {}) }), _jsx(Route, { path: "/contact", element: _jsx(Contact, {}) }), _jsx(Route, { path: "/solutions", element: _jsx(Solution, {}) }), _jsx(Route, { path: "/products", element: _jsx(Products, {}) }), _jsx(Route, { path: "/product/:id", element: _jsx(ProductDetails, {}) })] }), _jsx(ConditionalFooter, {})] }) }) }));
 };
 export default App;
