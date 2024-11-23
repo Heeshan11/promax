@@ -28,3 +28,8 @@ export interface IProduct {
   image: string,
   category?:string
 }
+export interface IBanner {
+  id: number,
+  image: string,
+ 
+}

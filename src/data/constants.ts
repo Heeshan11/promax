@@ -309,7 +309,6 @@ export const restaurantProducts = generateProducts(subCategories.Restaurant, 8, 
 export const tblProducts = generateProducts(subCategories.Desk, 7, '/table/tbl');
 export const AllSolutionProducts = [...commericalProducts, ...educationProducts, ...healthCareProducts, ...hospitalityProducts, ...publicSpaceProducts]
 
-console.log(AllSolutionProducts);
 export const ourSolutions = [
     {
         id: 2,
