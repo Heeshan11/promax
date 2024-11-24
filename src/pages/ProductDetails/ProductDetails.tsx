@@ -1,5 +1,5 @@
 import { FaWhatsapp } from 'react-icons/fa';
-import { AllSolutionProducts, bio, office_chair, restaurantProducts, sitingProducts, sofaProducts, tblProducts } from '@data/constants';
+import {  bio } from '@data/constants';
 import { useLocation, useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { IProduct } from '@app/interface/interface';

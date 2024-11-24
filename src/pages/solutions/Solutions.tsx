@@ -1,9 +1,7 @@
 import { useAllProducts, useLoading } from '@app/context/MainProvider'
-import SmallEmblaCarousel from '@components/carousel/SmallEmblaCarousel'
-import Collection from '@components/Collection'
 import ProductCard from '@components/ProductCard'
 import Spinner from '@components/Spinner'
-import { hospitalityProducts, ourSolutions } from '@data/constants'
+import { ourSolutions } from '@data/constants'
 import { Link } from 'react-router-dom'
 
 
