@@ -8,11 +8,7 @@ import { banners } from '@data/constants';
 
 
 const HomePage = () => {
-  // const [images, setImages] = useState<any[]>([]);
-  const images = import.meta.glob('/banners*.{png,jpg,jpeg,gif,svg}', { eager: true });
-  const imageArray = Object.values(images).map((module: any) => module.default);
-  console.log(imageArray);
-
+  
   return (
     <>
       <EmblaCarousel data={banners} />

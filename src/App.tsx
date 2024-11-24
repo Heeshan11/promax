@@ -12,16 +12,15 @@ import ConditionalFooter from "./constants/ConditionalFooter"
 
 
 const App = () => {
-  
+
   return (
 
     <Router>
       <div>
         <MainProvider>
-
           <Navigation />
           <Routes>
-            <Route path="/" element={<HomePage/>} />
+            <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/solutions" element={<Solution />} />

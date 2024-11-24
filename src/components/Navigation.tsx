@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import Marquee from './MarqueeText';
 import { Link } from 'react-router-dom';
+import { useScrollToTop } from '@app/context/MainProvider';
 
 export default function Navigation() {
     const [isOpen, setIsOpen] = useState(false);
@@ -16,6 +17,9 @@ export default function Navigation() {
         { id: 6, title: 'about us', to: '/about', queryTitle: '' },
         { id: 7, title: 'Contact', to: '/contact', queryTitle: '' },
     ];
+    const scrollToTop = useScrollToTop();
+
+    
 
     useEffect(() => {
         const handleScroll = () => {
@@ -25,7 +29,10 @@ export default function Navigation() {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
-
+const handleClick = ()=>{
+    setIsOpen(false)
+    scrollToTop()
+}
     return (
         <nav className={`fixed top-0 left-0 z-50 w-full transition-all duration-300 ${isScrolled ? 'bg-white py-1 shadow-md' : 'bg-[#00000042] pt-2'} ${isScrolled ? 'text-gray-900' : 'text-white'}`}>
 
@@ -84,12 +91,13 @@ export default function Navigation() {
                         {navList.map((navItem) => (
                             <div className="group" key={navItem.id}>
                                 <Link
+                                
                                     to={{
                                         pathname: `${navItem.to}`,
                                     }}
                                     state={navItem.queryTitle.length > 0 ? { title: navItem?.queryTitle } : {}
                                     }
-                                    onClick={() => setIsOpen(false)}
+                                    onClick={() => handleClick()}
                                     className={`relative uppercase 
                                 text-sm transition-all duration-300 ${isScrolled || isOpen ? 'text-gray-900' : 'text-white'} cursor-pointer ${isOpen && 'text-gray-900'} hover:text-blue-800 `}
                                 >

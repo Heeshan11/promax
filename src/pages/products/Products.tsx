@@ -16,65 +16,39 @@ import {
 } from "@data/constants";
 import { useEffect, useState } from "react";
 import { IProduct } from "../../interface/interface";
-import { useScrollToTop } from "@app/context/MainProvider";
+import { useAllProducts, useLoading, useScrollToTop } from "@app/context/MainProvider";
+import Spinner from "@components/Spinner";
 
 const Products = () => {
   const location = useLocation();
-  const { title } = location.state || { title: 'All Products' };
+  const { title, category } = location.state || { title: 'All Products' };
   const [data, setData] = useState<IProduct[]>([]);
   const [visibleData, setVisibleData] = useState<IProduct[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
   const scrollToTop = useScrollToTop();
-  
+  const allProducts = useAllProducts()
+  const loading = useLoading(); // Get loading state from context
 
   useEffect(() => {
     scrollToTop()
     let products: IProduct[] = [];
-    switch (title) {
-      case MainCategories.Hospitality:
-        products = hospitalityProducts;
-        break;
-      case MainCategories.Educational:
-        products = educationProducts;
-        break;
-      case MainCategories.Commercial:
-        products = commericalProducts;
-        break;
-      case MainCategories.PublicSpaces:
-        products = publicSpaceProducts;
-        break;
-      case MainCategories.Healthcare:
-        products = healthCareProducts;
-        break;
-      case subCategories.Seating:
-        products = sitingProducts;
-        break;
-      case 'Restaurant Tables + Desks':
-        products = restaurantProducts;
-        break;
-      case 'Office Chairs':
-        products = office_chair;
-        break;
-      case 'Desks + Tables':
-        products = tblProducts;
-        break;
-      case "All Products":
-        products = AllSolutionProducts;
-        break;
-      default:
-        break;
-    }
-    setData(products);
-    if(products.length>0){
+    if (category !== undefined) {
 
+products = allProducts.filter((product) => product.category.toLowerCase() === category.toLowerCase())
+} else {
+      console.log(" alll e");
+
+      products = [...allProducts].sort(() => Math.random() - 0.5);
+    }
+
+    setData(products);
+    if (products.length > 0) {
       setVisibleData(products.slice(0, itemsPerPage));
-    }else{
+    } else {
       setVisibleData([])
     }
-  }, [title]);
-  console.log(AllSolutionProducts);
-  console.log(tblProducts );
+  }, [category,allProducts  ]);
 
   const handleSeeMore = () => {
     const nextPage = currentPage + 1;
@@ -87,9 +61,14 @@ const Products = () => {
     ]);
     setCurrentPage(nextPage);
   };
+if(loading){
+  return(
+<Spinner/>
+  )
+}
 
   return (
-    <div className="pt-28">
+    <div className="pt-28 min-h-screen">
       <div className="w-4/6 sm:w-10/12 mx-auto">
         <h1 className="heading_text text-2xl text-gray-800">{title}</h1>
       </div>

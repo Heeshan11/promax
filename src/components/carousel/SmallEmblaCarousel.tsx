@@ -7,10 +7,10 @@ import {
 } from './EmblaCarouselArrowButtons'
 import useEmblaCarousel from 'embla-carousel-react'
 import { Link } from 'react-router-dom'
-import { IService } from '../../interface/interface'
+import { IProduct, IService } from '../../interface/interface'
 
 type PropType = {
-  data: IService[]
+  data: IProduct[]
 }
 
 const SmallEmblaCarousel: React.FC<PropType> = (props) => {
@@ -34,12 +34,15 @@ const SmallEmblaCarousel: React.FC<PropType> = (props) => {
       <div className="small__embla__viewport" ref={emblaRef}>
         <div className="small__embla__container">
           {data.map((item, index) => (
-            <Link to={`products/${item.id}`} className="small__embla__slide select-none gap-2" key={index}>
+            <Link to={`product/${item.id}`}
+            state={{ title: item.uid, category: item.category, uid: item.uid }} 
+            className="small__embla__slide select-none gap-2" key={index}>
               {/* <WatermarkedImage imageUrl={item.image} targetHeight={208} imgStyle={"small__embla__slide__img "}/> */}
               <img
                 className="small__embla__slide__img "
                 src={item?.image}
                 alt="Your alt text"
+                loading='lazy'
               />
             </Link>
           ))}

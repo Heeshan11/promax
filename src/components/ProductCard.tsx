@@ -16,7 +16,7 @@ const ProductCard = ({ products }: { products: IProduct[] }) => {
             <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 container mx-auto py-6 px-6">
                 {products.map((product, index: number) => {
                     const { image, id, uid, category } = product;
-                    const productUrl = `https://promax-oid0.onrender.com/product/${product.uid}`;
+                    const productUrl = `https://promax-oid0.onrender.com/product/${uid}`;
 
                     // Generate the WhatsApp message
                     const whatsappMessage =
@@ -38,19 +38,22 @@ ${productUrl}
                                 stiffness: 100,
                                 delay: (index % 10) * 0.2,
                             }}
-                            className='bg-white rounded-lg shadow-lg text-center'
+                            style={{boxShadow:'0px 3px 6px 1px rgb(0 0 0 / 20%), 0 2px 4px -2px rgb(0 0 0 / 0.1)'}}
+                            className='bg-white rounded-lg  text-center  border-slate-300 '
                         >
                             {/* Link to Product Details */}
                             <Link to={`/product/${id}`}
-                                state={{ title: product.uid, category: product.category }}
-                                className="block ">
+                            style={{borderBottom:'1px solid #e0e0e0'}}
+                                state={{ title: product.uid, category: product.category, uid: product.uid }}
+                                className="block overflow-hidden relative group ">
                                 <div className="">
                                     <img
                                         src={image}
                                         alt={"title"}
                                         width={300}
                                         height={200}
-                                        className="rounded-t-lg object-cover h-40"
+                                        className="rounded-t-lg object-cover h-40 transform transition-transform duration-300 ease-in-out group-hover:scale-110"
+                                        loading='lazy'
                                     />
 
                                 </div>

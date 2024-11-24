@@ -5,11 +5,11 @@ import { IAboutDetail } from "../interface/interface";
 
 
 export enum MainCategories {
-    Commercial = "Commercial",
-    Hospitality = "Hospitality",
-    Educational = "Educational",
-    Healthcare = "Healthcare",
-    PublicSpaces = "Public Spaces"
+    Commercial = "commercial",
+    Hospitality = "hospitality",
+    Educational = "education",
+    Healthcare = "health",
+    PublicSpaces = "public"
 }
 export enum subCategories {
     Seating = "Seating",
@@ -21,7 +21,7 @@ export enum subCategories {
 }
 export const bio = {
     email: "info@promax-direct.com",
-    phone: '971565322012',
+    phone: '971568626802',
     address: 'P.O. Box: 50433, Compass Building, Al-Shohada Road, Al-Hamra Industrial Zone-FZ, Ras-Al-Khaima, UAE',
     services: [
         "Commercial Furniture",
@@ -238,7 +238,7 @@ export const subCategoriesProducts = [
 export const projects = [
     {
         id: 1,
-        image: "/categories/OFFICE.webp",
+        image: "/projects/project1.jpg",
         title: "OFFICE FURNITURE",
         category: subCategories.Office,
         desc: "Superman, office modular sofa has different module, you can make different shapes of sofas for different office Spaces. This sofa is suitable for reception area, public leisure area, conference room and other different office space."
@@ -253,7 +253,7 @@ export const projects = [
     },
     {
         id: 2,
-        image: '/categories/siting.png',
+        image: 'https://test-image-heeshan.s3.ap-southeast-2.amazonaws.com/banner10.jpg',
         title: "Living Room Seating",
         category: MainCategories.Commercial,
         desc: "office table set system& Smart workstation: The design inspiration comes from the tough image of mountain workers described in the article 'Tiaoshangong'. The designer simplified the lines and enhanced the stability to create SMART, a table system with a unique style and very suitable for a wide range of applications."
@@ -267,7 +267,7 @@ export const projects = [
     },
     {
         id: 5,
-        image: '/categories/desk.webp',
+        image: '/projects/project2.png',
         title: "Desks + Tables",
         category: subCategories.Desk,
         desc: "Optimize your office layout with our Modern Modular Office Furniture, designed to enhance productivity and space efficiency. This versatile set offers a sleek table for cubicle workstations complemented by durable yet soundproof office partitions providing privacy."
@@ -297,17 +297,12 @@ const subGenerateProducts = (category: string, count: number, imagePattern: stri
 };
 
 // Use the function to generate the product arrays
-export const commericalProducts = generateProducts(MainCategories.Commercial, 9, '/commercial/sofa');
-export const educationProducts = generateProducts(MainCategories.Educational, 17, '/edu/edu');
-export const healthCareProducts = generateProducts(MainCategories.Healthcare, 3, '/healthcare/health');
-export const hospitalityProducts = generateProducts(MainCategories.Hospitality, 3, '/hospital/hos');
-export const publicSpaceProducts = generateProducts(MainCategories.PublicSpaces, 25, '/public/public');
+
 export const office_chair = subGenerateProducts(subCategories.Seating, 21, '/office_chair/office_chair','png');
 export const sofaProducts = generateProducts(subCategories.Seating, 9, '/commercial/sofa');
 export const sitingProducts = [...office_chair,...sofaProducts]
 export const restaurantProducts = generateProducts(subCategories.Restaurant, 8, '/restu/rest');
 export const tblProducts = generateProducts(subCategories.Desk, 7, '/table/tbl');
-export const AllSolutionProducts = [...commericalProducts, ...educationProducts, ...healthCareProducts, ...hospitalityProducts, ...publicSpaceProducts]
 
 export const ourSolutions = [
     {
@@ -316,7 +311,7 @@ export const ourSolutions = [
         title: "Hospitality",
         desc: "We are driven by our purpose of enhancing the life experience. Our hospitality collections enable iWork creates spaces that pleasant people. A place where you are supported, welcomed and engaged.",
         category: MainCategories.Hospitality,
-        data: hospitalityProducts
+        
 
     },
     {
@@ -325,7 +320,7 @@ export const ourSolutions = [
         title: "Commercial",
         desc: "iWork designs inspiring commercial spaces, combining innovative, human-centered design with research-driven insights. We create environments that boost productivity, creativity, and overall business performance.",
         category: MainCategories.Commercial,
-        data: commericalProducts
+        
 
 
     },
@@ -336,7 +331,7 @@ export const ourSolutions = [
         title: "Educational",
         desc: "With a human-centered approach informed by ongoing research into effective spaces, iWork helps schools, training agencies and colleges create effective and inspiring active learning environment.",
         category: MainCategories.Educational,
-        data: educationProducts
+        
 
 
     },
@@ -346,7 +341,7 @@ export const ourSolutions = [
         title: "Healthcare",
         desc: "As an ISO13485 approved one, iWork have been meeting the needs of healthcare environments, it’s our privilege to build strong partnerships with architects, contactors and developers through constant dialogue to understand and fulfill their needs.",
         category: MainCategories.Healthcare,
-        data: healthCareProducts
+        
 
 
     },
@@ -356,7 +351,7 @@ export const ourSolutions = [
         title: "Public Spaces",
         desc: "iWork specializes in custom, high-quality furniture solutions, designed to enhance comfort and functionality. From ergonomic office chairs to modular seating, our furniture transforms any space.",
         category: MainCategories.PublicSpaces,
-        data: publicSpaceProducts
+        
 
 
     },

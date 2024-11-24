@@ -273,18 +273,12 @@ const subGenerateProducts = (category, count, imagePattern, imgType = "jpg") => 
     }));
 };
 // Use the function to generate the product arrays
-export const commericalProducts = generateProducts(MainCategories.Commercial, 9, '/commercial/sofa');
-export const educationProducts = generateProducts(MainCategories.Educational, 17, '/edu/edu');
-export const healthCareProducts = generateProducts(MainCategories.Healthcare, 3, '/healthcare/health');
-export const hospitalityProducts = generateProducts(MainCategories.Hospitality, 3, '/hospital/hos');
-export const publicSpaceProducts = generateProducts(MainCategories.PublicSpaces, 25, '/public/public');
 export const office_chair = subGenerateProducts(subCategories.Seating, 21, '/office_chair/office_chair', 'png');
 export const sofaProducts = generateProducts(subCategories.Seating, 9, '/commercial/sofa');
 export const sitingProducts = [...office_chair, ...sofaProducts];
 export const restaurantProducts = generateProducts(subCategories.Restaurant, 8, '/restu/rest');
 export const tblProducts = generateProducts(subCategories.Desk, 7, '/table/tbl');
 export const AllSolutionProducts = [...commericalProducts, ...educationProducts, ...healthCareProducts, ...hospitalityProducts, ...publicSpaceProducts];
-console.log(AllSolutionProducts);
 export const ourSolutions = [
     {
         id: 2,
@@ -292,7 +286,7 @@ export const ourSolutions = [
         title: "Hospitality",
         desc: "We are driven by our purpose of enhancing the life experience. Our hospitality collections enable iWork creates spaces that pleasant people. A place where you are supported, welcomed and engaged.",
         category: MainCategories.Hospitality,
-        data: hospitalityProducts
+        
     },
     {
         id: 1,
@@ -300,7 +294,7 @@ export const ourSolutions = [
         title: "Commercial",
         desc: "iWork designs inspiring commercial spaces, combining innovative, human-centered design with research-driven insights. We create environments that boost productivity, creativity, and overall business performance.",
         category: MainCategories.Commercial,
-        data: commericalProducts
+        
     },
     {
         id: 3,
@@ -308,7 +302,7 @@ export const ourSolutions = [
         title: "Educational",
         desc: "With a human-centered approach informed by ongoing research into effective spaces, iWork helps schools, training agencies and colleges create effective and inspiring active learning environment.",
         category: MainCategories.Educational,
-        data: educationProducts
+        
     },
     {
         id: 4,
@@ -316,7 +310,7 @@ export const ourSolutions = [
         title: "Healthcare",
         desc: "As an ISO13485 approved one, iWork have been meeting the needs of healthcare environments, it’s our privilege to build strong partnerships with architects, contactors and developers through constant dialogue to understand and fulfill their needs.",
         category: MainCategories.Healthcare,
-        data: healthCareProducts
+        
     },
     {
         id: 5,
@@ -324,7 +318,7 @@ export const ourSolutions = [
         title: "Public Spaces",
         desc: "iWork specializes in custom, high-quality furniture solutions, designed to enhance comfort and functionality. From ergonomic office chairs to modular seating, our furniture transforms any space.",
         category: MainCategories.PublicSpaces,
-        data: publicSpaceProducts
+        
     },
 ];
 export const quickLinks = [

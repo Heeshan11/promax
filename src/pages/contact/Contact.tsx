@@ -10,7 +10,7 @@ const Contact = () => {
         message: '',
     });
 
-    const handleChange =(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>)  => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { name, value } = e.target;
         setFormData((prevData) => ({ ...prevData, [name]: value }));
     };
@@ -34,7 +34,15 @@ const Contact = () => {
             name: ''
         })
     };
+    const phoneNumber = bio.phone;
 
+    const whatsappMessage =
+        `Hey!,
+I would like to collaborate with you, please share more details.
+   `;
+
+    // Generate the WhatsApp link
+    const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
     return (
         <div className="min-h-screen bg-gray-100 flex bg-gradient-to-tl from-gray-900 to-[#040406]  items-center justify-center p-4 pt-28 text-white">
             <div className="max-w-5xl w-full bg-gradient-to-tl from-gray-900 to-[#040406] shadow-md rounded-lg p-6 md:flex">
@@ -75,14 +83,14 @@ const Contact = () => {
                                 Message
                             </label>
                             <textarea
-                              id="message"
-                              name="message"
-                              value={formData.message}
-                              onChange={handleChange}
-                              required
-                              className="w-full px-3 py-2 bg-gradient-to-tl from-gray-900 to-[#040406] focus:outline-none focus:ring-0 focus:border-b-violet-300 border-b-violet-300	border-b-[1px] resize-none"
-                              rows={5}
-                              style={{ height: "150px" }}
+                                id="message"
+                                name="message"
+                                value={formData.message}
+                                onChange={handleChange}
+                                required
+                                className="w-full px-3 py-2 bg-gradient-to-tl from-gray-900 to-[#040406] focus:outline-none focus:ring-0 focus:border-b-violet-300 border-b-violet-300	border-b-[1px] resize-none"
+                                rows={5}
+                                style={{ height: "150px" }}
                             ></textarea>
                         </div>
                         <button
@@ -118,8 +126,13 @@ const Contact = () => {
                         <a href="#" className="text-[#1DA1F2]">
                             <FaTwitter size={24} />
                         </a>
-                        <a href="#" className="text-[#25D366] ">
-                            <FaWhatsapp size={24} />
+                        <a
+                            href={whatsappLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className=""
+                        >
+                            <FaWhatsapp color="#25D366" size={24} />
                         </a>
                         <a href="#" className="text-[#0077B5]">
                             <FaLinkedin size={24} />

@@ -9,7 +9,7 @@ const Collection = () => {
     <div className="flex flex-wrap justify-center gap-5 max-w-[2000px] mx-auto">
       {ourSolutions.map((card, index) => (
         <Link to={{ pathname: '/products' }}
-        state={{title: card.title,category:card.category}}
+          state={{ title: card.title, category: card.category }}
 
           key={index}
           className={`flex flex-col 
@@ -24,6 +24,7 @@ const Collection = () => {
               src={card.image}
               alt={card.title}
               className="w-full h-full object-cover transform transition-transform duration-300 ease-in-out group-hover:scale-110"
+              loading='lazy'
             />
           </div>
 
