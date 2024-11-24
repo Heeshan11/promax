@@ -16,7 +16,7 @@ const ProductCard = ({ products }: { products: IProduct[] }) => {
             <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 container mx-auto py-6 px-6">
                 {products.map((product, index: number) => {
                     const { image, id, uid, category } = product;
-                    const productUrl = `https://promax-oid0.onrender.com/product/${uid}`;
+                    const productUrl = `https://promax-oid0.onrender.com/product/${id}`;
 
                     // Generate the WhatsApp message
                     const whatsappMessage =

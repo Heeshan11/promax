@@ -2,1033 +2,1267 @@
   {
     "id": 1,
     "image": "/commercial/desk (1).jpg",
-    "category": "Commercial",
-    "uid": "com1"
+    "category": "commercial",
+    "uid": "des1"
   },
   {
     "id": 2,
-    "image": "/commercial/desk (10).jpg",
-    "category": "Commercial",
-    "uid": "com2"
+    "image": "/commercial/desk (2).jpg",
+    "category": "commercial",
+    "uid": "des2"
   },
   {
     "id": 3,
-    "image": "/commercial/desk (2).jpg",
-    "category": "Commercial",
-    "uid": "com3"
+    "image": "/commercial/desk (3).jpg",
+    "category": "commercial",
+    "uid": "des3"
   },
   {
     "id": 4,
-    "image": "/commercial/desk (3).jpg",
-    "category": "Commercial",
-    "uid": "com4"
+    "image": "/commercial/desk (4).jpg",
+    "category": "commercial",
+    "uid": "des4"
   },
   {
     "id": 5,
-    "image": "/commercial/desk (4).jpg",
-    "category": "Commercial",
-    "uid": "com5"
+    "image": "/commercial/desk (5).jpg",
+    "category": "commercial",
+    "uid": "des5"
   },
   {
     "id": 6,
-    "image": "/commercial/desk (5).jpg",
-    "category": "Commercial",
-    "uid": "com6"
+    "image": "/commercial/desk (6).jpg",
+    "category": "commercial",
+    "uid": "des6"
   },
   {
     "id": 7,
-    "image": "/commercial/desk (6).jpg",
-    "category": "Commercial",
-    "uid": "com7"
+    "image": "/commercial/desk (7).jpg",
+    "category": "commercial",
+    "uid": "des7"
   },
   {
     "id": 8,
-    "image": "/commercial/desk (7).jpg",
-    "category": "Commercial",
-    "uid": "com8"
+    "image": "/commercial/off_chair (1).jpg",
+    "category": "commercial",
+    "uid": "off8"
   },
   {
     "id": 9,
-    "image": "/commercial/desk (8).jpg",
-    "category": "Commercial",
-    "uid": "com9"
+    "image": "/commercial/off_chair (10).jpg",
+    "category": "commercial",
+    "uid": "off9"
   },
   {
     "id": 10,
-    "image": "/commercial/desk (9).jpg",
-    "category": "Commercial",
-    "uid": "com10"
+    "image": "/commercial/off_chair (11).jpg",
+    "category": "commercial",
+    "uid": "off10"
   },
   {
     "id": 11,
-    "image": "/commercial/off_chair (1).jpg",
-    "category": "Commercial",
-    "uid": "com11"
+    "image": "/commercial/off_chair (12).jpg",
+    "category": "commercial",
+    "uid": "off11"
   },
   {
     "id": 12,
-    "image": "/commercial/off_chair (10).jpg",
-    "category": "Commercial",
-    "uid": "com12"
+    "image": "/commercial/off_chair (13).jpg",
+    "category": "commercial",
+    "uid": "off12"
   },
   {
     "id": 13,
-    "image": "/commercial/off_chair (11).jpg",
-    "category": "Commercial",
-    "uid": "com13"
+    "image": "/commercial/off_chair (14).jpg",
+    "category": "commercial",
+    "uid": "off13"
   },
   {
     "id": 14,
-    "image": "/commercial/off_chair (12).jpg",
-    "category": "Commercial",
-    "uid": "com14"
+    "image": "/commercial/off_chair (15).jpg",
+    "category": "commercial",
+    "uid": "off14"
   },
   {
     "id": 15,
-    "image": "/commercial/off_chair (13).jpg",
-    "category": "Commercial",
-    "uid": "com15"
+    "image": "/commercial/off_chair (16).jpg",
+    "category": "commercial",
+    "uid": "off15"
   },
   {
     "id": 16,
-    "image": "/commercial/off_chair (14).jpg",
-    "category": "Commercial",
-    "uid": "com16"
+    "image": "/commercial/off_chair (17).jpg",
+    "category": "commercial",
+    "uid": "off16"
   },
   {
     "id": 17,
-    "image": "/commercial/off_chair (15).jpg",
-    "category": "Commercial",
-    "uid": "com17"
+    "image": "/commercial/off_chair (18).jpg",
+    "category": "commercial",
+    "uid": "off17"
   },
   {
     "id": 18,
-    "image": "/commercial/off_chair (16).jpg",
-    "category": "Commercial",
-    "uid": "com18"
+    "image": "/commercial/off_chair (19).jpg",
+    "category": "commercial",
+    "uid": "off18"
   },
   {
     "id": 19,
-    "image": "/commercial/off_chair (17).jpg",
-    "category": "Commercial",
-    "uid": "com19"
+    "image": "/commercial/off_chair (2).jpg",
+    "category": "commercial",
+    "uid": "off19"
   },
   {
     "id": 20,
-    "image": "/commercial/off_chair (18).jpg",
-    "category": "Commercial",
-    "uid": "com20"
+    "image": "/commercial/off_chair (20).jpg",
+    "category": "commercial",
+    "uid": "off20"
   },
   {
     "id": 21,
-    "image": "/commercial/off_chair (19).jpg",
-    "category": "Commercial",
-    "uid": "com21"
+    "image": "/commercial/off_chair (3).jpg",
+    "category": "commercial",
+    "uid": "off21"
   },
   {
     "id": 22,
-    "image": "/commercial/off_chair (2).jpg",
-    "category": "Commercial",
-    "uid": "com22"
+    "image": "/commercial/off_chair (4).jpg",
+    "category": "commercial",
+    "uid": "off22"
   },
   {
     "id": 23,
-    "image": "/commercial/off_chair (20).jpg",
-    "category": "Commercial",
-    "uid": "com23"
+    "image": "/commercial/off_chair (5).jpg",
+    "category": "commercial",
+    "uid": "off23"
   },
   {
     "id": 24,
-    "image": "/commercial/off_chair (21).jpg",
-    "category": "Commercial",
-    "uid": "com24"
+    "image": "/commercial/off_chair (6).jpg",
+    "category": "commercial",
+    "uid": "off24"
   },
   {
     "id": 25,
-    "image": "/commercial/off_chair (22).jpg",
-    "category": "Commercial",
-    "uid": "com25"
+    "image": "/commercial/off_chair (7).jpg",
+    "category": "commercial",
+    "uid": "off25"
   },
   {
     "id": 26,
-    "image": "/commercial/off_chair (23).jpg",
-    "category": "Commercial",
-    "uid": "com26"
+    "image": "/commercial/off_chair (8).jpg",
+    "category": "commercial",
+    "uid": "off26"
   },
   {
     "id": 27,
-    "image": "/commercial/off_chair (24).jpg",
-    "category": "Commercial",
-    "uid": "com27"
+    "image": "/commercial/off_chair (9).jpg",
+    "category": "commercial",
+    "uid": "off27"
   },
   {
     "id": 28,
-    "image": "/commercial/off_chair (25).jpg",
-    "category": "Commercial",
-    "uid": "com28"
+    "image": "/commercial/sofa (1).jpg",
+    "category": "commercial",
+    "uid": "sof28"
   },
   {
     "id": 29,
-    "image": "/commercial/off_chair (26).jpg",
-    "category": "Commercial",
-    "uid": "com29"
+    "image": "/commercial/sofa (10).jpg",
+    "category": "commercial",
+    "uid": "sof29"
   },
   {
     "id": 30,
-    "image": "/commercial/off_chair (27).jpg",
-    "category": "Commercial",
-    "uid": "com30"
+    "image": "/commercial/sofa (11).jpg",
+    "category": "commercial",
+    "uid": "sof30"
   },
   {
     "id": 31,
-    "image": "/commercial/off_chair (28).jpg",
-    "category": "Commercial",
-    "uid": "com31"
+    "image": "/commercial/sofa (12).jpg",
+    "category": "commercial",
+    "uid": "sof31"
   },
   {
     "id": 32,
-    "image": "/commercial/off_chair (29).jpg",
-    "category": "Commercial",
-    "uid": "com32"
+    "image": "/commercial/sofa (13).jpg",
+    "category": "commercial",
+    "uid": "sof32"
   },
   {
     "id": 33,
-    "image": "/commercial/off_chair (3).jpg",
-    "category": "Commercial",
-    "uid": "com33"
+    "image": "/commercial/sofa (14).jpg",
+    "category": "commercial",
+    "uid": "sof33"
   },
   {
     "id": 34,
-    "image": "/commercial/off_chair (30).jpg",
-    "category": "Commercial",
-    "uid": "com34"
+    "image": "/commercial/sofa (15).jpg",
+    "category": "commercial",
+    "uid": "sof34"
   },
   {
     "id": 35,
-    "image": "/commercial/off_chair (31).jpg",
-    "category": "Commercial",
-    "uid": "com35"
+    "image": "/commercial/sofa (16).jpg",
+    "category": "commercial",
+    "uid": "sof35"
   },
   {
     "id": 36,
-    "image": "/commercial/off_chair (32).jpg",
-    "category": "Commercial",
-    "uid": "com36"
+    "image": "/commercial/sofa (17).jpg",
+    "category": "commercial",
+    "uid": "sof36"
   },
   {
     "id": 37,
-    "image": "/commercial/off_chair (33).jpg",
-    "category": "Commercial",
-    "uid": "com37"
+    "image": "/commercial/sofa (18).jpg",
+    "category": "commercial",
+    "uid": "sof37"
   },
   {
     "id": 38,
-    "image": "/commercial/off_chair (34).jpg",
-    "category": "Commercial",
-    "uid": "com38"
+    "image": "/commercial/sofa (19).jpg",
+    "category": "commercial",
+    "uid": "sof38"
   },
   {
     "id": 39,
-    "image": "/commercial/off_chair (35).jpg",
-    "category": "Commercial",
-    "uid": "com39"
+    "image": "/commercial/sofa (2).jpg",
+    "category": "commercial",
+    "uid": "sof39"
   },
   {
     "id": 40,
-    "image": "/commercial/off_chair (36).jpg",
-    "category": "Commercial",
-    "uid": "com40"
+    "image": "/commercial/sofa (20).jpg",
+    "category": "commercial",
+    "uid": "sof40"
   },
   {
     "id": 41,
-    "image": "/commercial/off_chair (37).jpg",
-    "category": "Commercial",
-    "uid": "com41"
+    "image": "/commercial/sofa (21).jpg",
+    "category": "commercial",
+    "uid": "sof41"
   },
   {
     "id": 42,
-    "image": "/commercial/off_chair (38).jpg",
-    "category": "Commercial",
-    "uid": "com42"
+    "image": "/commercial/sofa (22).jpg",
+    "category": "commercial",
+    "uid": "sof42"
   },
   {
     "id": 43,
-    "image": "/commercial/off_chair (39).jpg",
-    "category": "Commercial",
-    "uid": "com43"
+    "image": "/commercial/sofa (23).jpg",
+    "category": "commercial",
+    "uid": "sof43"
   },
   {
     "id": 44,
-    "image": "/commercial/off_chair (4).jpg",
-    "category": "Commercial",
-    "uid": "com44"
+    "image": "/commercial/sofa (24).jpg",
+    "category": "commercial",
+    "uid": "sof44"
   },
   {
     "id": 45,
-    "image": "/commercial/off_chair (40).jpg",
-    "category": "Commercial",
-    "uid": "com45"
+    "image": "/commercial/sofa (25).jpg",
+    "category": "commercial",
+    "uid": "sof45"
   },
   {
     "id": 46,
-    "image": "/commercial/off_chair (41).jpg",
-    "category": "Commercial",
-    "uid": "com46"
+    "image": "/commercial/sofa (26).jpg",
+    "category": "commercial",
+    "uid": "sof46"
   },
   {
     "id": 47,
-    "image": "/commercial/off_chair (42).jpg",
-    "category": "Commercial",
-    "uid": "com47"
+    "image": "/commercial/sofa (27).jpg",
+    "category": "commercial",
+    "uid": "sof47"
   },
   {
     "id": 48,
-    "image": "/commercial/off_chair (43).jpg",
-    "category": "Commercial",
-    "uid": "com48"
+    "image": "/commercial/sofa (28).jpg",
+    "category": "commercial",
+    "uid": "sof48"
   },
   {
     "id": 49,
-    "image": "/commercial/off_chair (44).jpg",
-    "category": "Commercial",
-    "uid": "com49"
+    "image": "/commercial/sofa (29).jpg",
+    "category": "commercial",
+    "uid": "sof49"
   },
   {
     "id": 50,
-    "image": "/commercial/off_chair (45).jpg",
-    "category": "Commercial",
-    "uid": "com50"
+    "image": "/commercial/sofa (3).jpg",
+    "category": "commercial",
+    "uid": "sof50"
   },
   {
     "id": 51,
-    "image": "/commercial/off_chair (46).jpg",
-    "category": "Commercial",
-    "uid": "com51"
+    "image": "/commercial/sofa (30).jpg",
+    "category": "commercial",
+    "uid": "sof51"
   },
   {
     "id": 52,
-    "image": "/commercial/off_chair (47).jpg",
-    "category": "Commercial",
-    "uid": "com52"
+    "image": "/commercial/sofa (31).jpg",
+    "category": "commercial",
+    "uid": "sof52"
   },
   {
     "id": 53,
-    "image": "/commercial/off_chair (48).jpg",
-    "category": "Commercial",
-    "uid": "com53"
+    "image": "/commercial/sofa (32).jpg",
+    "category": "commercial",
+    "uid": "sof53"
   },
   {
     "id": 54,
-    "image": "/commercial/off_chair (5).jpg",
-    "category": "Commercial",
-    "uid": "com54"
+    "image": "/commercial/sofa (33).jpg",
+    "category": "commercial",
+    "uid": "sof54"
   },
   {
     "id": 55,
-    "image": "/commercial/off_chair (6).jpg",
-    "category": "Commercial",
-    "uid": "com55"
+    "image": "/commercial/sofa (4).jpg",
+    "category": "commercial",
+    "uid": "sof55"
   },
   {
     "id": 56,
-    "image": "/commercial/off_chair (7).jpg",
-    "category": "Commercial",
-    "uid": "com56"
+    "image": "/commercial/sofa (5).jpg",
+    "category": "commercial",
+    "uid": "sof56"
   },
   {
     "id": 57,
-    "image": "/commercial/off_chair (8).jpg",
-    "category": "Commercial",
-    "uid": "com57"
+    "image": "/commercial/sofa (6).jpg",
+    "category": "commercial",
+    "uid": "sof57"
   },
   {
     "id": 58,
-    "image": "/commercial/off_chair (9).jpg",
-    "category": "Commercial",
-    "uid": "com58"
+    "image": "/commercial/sofa (7).jpg",
+    "category": "commercial",
+    "uid": "sof58"
   },
   {
     "id": 59,
-    "image": "/commercial/sofa (1).jpg",
-    "category": "Commercial",
-    "uid": "com59"
+    "image": "/commercial/sofa (8).jpg",
+    "category": "commercial",
+    "uid": "sof59"
   },
   {
     "id": 60,
-    "image": "/commercial/sofa (10).jpg",
-    "category": "Commercial",
-    "uid": "com60"
+    "image": "/commercial/sofa (9).jpg",
+    "category": "commercial",
+    "uid": "sof60"
   },
   {
     "id": 61,
-    "image": "/commercial/sofa (11).jpg",
-    "category": "Commercial",
-    "uid": "com61"
+    "image": "/commercial/sofa1.png",
+    "category": "commercial",
+    "uid": "sof61"
   },
   {
     "id": 62,
-    "image": "/commercial/sofa (12).jpg",
-    "category": "Commercial",
-    "uid": "com62"
+    "image": "/commercial/sofa3.png",
+    "category": "commercial",
+    "uid": "sof62"
   },
   {
     "id": 63,
-    "image": "/commercial/sofa (13).jpg",
-    "category": "Commercial",
-    "uid": "com63"
+    "image": "/commercial/sofa5.png",
+    "category": "commercial",
+    "uid": "sof63"
   },
   {
     "id": 64,
-    "image": "/commercial/sofa (14).jpg",
-    "category": "Commercial",
-    "uid": "com64"
+    "image": "/commercial/tbl (1).jpg",
+    "category": "commercial",
+    "uid": "tbl64"
   },
   {
     "id": 65,
-    "image": "/commercial/sofa (15).jpg",
-    "category": "Commercial",
-    "uid": "com65"
+    "image": "/commercial/tbl (1).png",
+    "category": "commercial",
+    "uid": "tbl65"
   },
   {
     "id": 66,
-    "image": "/commercial/sofa (16).jpg",
-    "category": "Commercial",
-    "uid": "com66"
+    "image": "/commercial/tbl (10).jpg",
+    "category": "commercial",
+    "uid": "tbl66"
   },
   {
     "id": 67,
-    "image": "/commercial/sofa (17).jpg",
-    "category": "Commercial",
-    "uid": "com67"
+    "image": "/commercial/tbl (10).png",
+    "category": "commercial",
+    "uid": "tbl67"
   },
   {
     "id": 68,
-    "image": "/commercial/sofa (18).jpg",
-    "category": "Commercial",
-    "uid": "com68"
+    "image": "/commercial/tbl (11).jpg",
+    "category": "commercial",
+    "uid": "tbl68"
   },
   {
     "id": 69,
-    "image": "/commercial/sofa (19).jpg",
-    "category": "Commercial",
-    "uid": "com69"
+    "image": "/commercial/tbl (12).jpg",
+    "category": "commercial",
+    "uid": "tbl69"
   },
   {
     "id": 70,
-    "image": "/commercial/sofa (2).jpg",
-    "category": "Commercial",
-    "uid": "com70"
+    "image": "/commercial/tbl (13).jpg",
+    "category": "commercial",
+    "uid": "tbl70"
   },
   {
     "id": 71,
-    "image": "/commercial/sofa (20).jpg",
-    "category": "Commercial",
-    "uid": "com71"
+    "image": "/commercial/tbl (14).jpg",
+    "category": "commercial",
+    "uid": "tbl71"
   },
   {
     "id": 72,
-    "image": "/commercial/sofa (21).jpg",
-    "category": "Commercial",
-    "uid": "com72"
+    "image": "/commercial/tbl (2).jpg",
+    "category": "commercial",
+    "uid": "tbl72"
   },
   {
     "id": 73,
-    "image": "/commercial/sofa (22).jpg",
-    "category": "Commercial",
-    "uid": "com73"
+    "image": "/commercial/tbl (2).png",
+    "category": "commercial",
+    "uid": "tbl73"
   },
   {
     "id": 74,
-    "image": "/commercial/sofa (23).jpg",
-    "category": "Commercial",
-    "uid": "com74"
+    "image": "/commercial/tbl (3).jpg",
+    "category": "commercial",
+    "uid": "tbl74"
   },
   {
     "id": 75,
-    "image": "/commercial/sofa (24).jpg",
-    "category": "Commercial",
-    "uid": "com75"
+    "image": "/commercial/tbl (3).png",
+    "category": "commercial",
+    "uid": "tbl75"
   },
   {
     "id": 76,
-    "image": "/commercial/sofa (25).jpg",
-    "category": "Commercial",
-    "uid": "com76"
+    "image": "/commercial/tbl (4).jpg",
+    "category": "commercial",
+    "uid": "tbl76"
   },
   {
     "id": 77,
-    "image": "/commercial/sofa (26).jpg",
-    "category": "Commercial",
-    "uid": "com77"
+    "image": "/commercial/tbl (4).png",
+    "category": "commercial",
+    "uid": "tbl77"
   },
   {
     "id": 78,
-    "image": "/commercial/sofa (27).jpg",
-    "category": "Commercial",
-    "uid": "com78"
+    "image": "/commercial/tbl (5).jpg",
+    "category": "commercial",
+    "uid": "tbl78"
   },
   {
     "id": 79,
-    "image": "/commercial/sofa (28).jpg",
-    "category": "Commercial",
-    "uid": "com79"
+    "image": "/commercial/tbl (5).png",
+    "category": "commercial",
+    "uid": "tbl79"
   },
   {
     "id": 80,
-    "image": "/commercial/sofa (29).jpg",
-    "category": "Commercial",
-    "uid": "com80"
+    "image": "/commercial/tbl (6).jpg",
+    "category": "commercial",
+    "uid": "tbl80"
   },
   {
     "id": 81,
-    "image": "/commercial/sofa (3).jpg",
-    "category": "Commercial",
-    "uid": "com81"
+    "image": "/commercial/tbl (6).png",
+    "category": "commercial",
+    "uid": "tbl81"
   },
   {
     "id": 82,
-    "image": "/commercial/sofa (30).jpg",
-    "category": "Commercial",
-    "uid": "com82"
+    "image": "/commercial/tbl (7).jpg",
+    "category": "commercial",
+    "uid": "tbl82"
   },
   {
     "id": 83,
-    "image": "/commercial/sofa (31).jpg",
-    "category": "Commercial",
-    "uid": "com83"
+    "image": "/commercial/tbl (7).png",
+    "category": "commercial",
+    "uid": "tbl83"
   },
   {
     "id": 84,
-    "image": "/commercial/sofa (32).jpg",
-    "category": "Commercial",
-    "uid": "com84"
+    "image": "/commercial/tbl (8).jpg",
+    "category": "commercial",
+    "uid": "tbl84"
   },
   {
     "id": 85,
-    "image": "/commercial/sofa (33).jpg",
-    "category": "Commercial",
-    "uid": "com85"
+    "image": "/commercial/tbl (8).png",
+    "category": "commercial",
+    "uid": "tbl85"
   },
   {
     "id": 86,
-    "image": "/commercial/sofa (34).jpg",
-    "category": "Commercial",
-    "uid": "com86"
+    "image": "/commercial/tbl (9).jpg",
+    "category": "commercial",
+    "uid": "tbl86"
   },
   {
     "id": 87,
-    "image": "/commercial/sofa (35).jpg",
-    "category": "Commercial",
-    "uid": "com87"
+    "image": "/commercial/tbl (9).png",
+    "category": "commercial",
+    "uid": "tbl87"
   },
   {
     "id": 88,
-    "image": "/commercial/sofa (36).jpg",
-    "category": "Commercial",
-    "uid": "com88"
+    "image": "/education/edu (1).jpg",
+    "category": "education",
+    "uid": "edu88"
   },
   {
     "id": 89,
-    "image": "/commercial/sofa (37).jpg",
-    "category": "Commercial",
-    "uid": "com89"
+    "image": "/education/edu (10).jpg",
+    "category": "education",
+    "uid": "edu89"
   },
   {
     "id": 90,
-    "image": "/commercial/sofa (38).jpg",
-    "category": "Commercial",
-    "uid": "com90"
+    "image": "/education/edu (11).jpg",
+    "category": "education",
+    "uid": "edu90"
   },
   {
     "id": 91,
-    "image": "/commercial/sofa (39).jpg",
-    "category": "Commercial",
-    "uid": "com91"
+    "image": "/education/edu (12).jpg",
+    "category": "education",
+    "uid": "edu91"
   },
   {
     "id": 92,
-    "image": "/commercial/sofa (4).jpg",
-    "category": "Commercial",
-    "uid": "com92"
+    "image": "/education/edu (13).jpg",
+    "category": "education",
+    "uid": "edu92"
   },
   {
     "id": 93,
-    "image": "/commercial/sofa (40).jpg",
-    "category": "Commercial",
-    "uid": "com93"
+    "image": "/education/edu (14).jpg",
+    "category": "education",
+    "uid": "edu93"
   },
   {
     "id": 94,
-    "image": "/commercial/sofa (41).jpg",
-    "category": "Commercial",
-    "uid": "com94"
+    "image": "/education/edu (15).jpg",
+    "category": "education",
+    "uid": "edu94"
   },
   {
     "id": 95,
-    "image": "/commercial/sofa (42).jpg",
-    "category": "Commercial",
-    "uid": "com95"
+    "image": "/education/edu (16).jpg",
+    "category": "education",
+    "uid": "edu95"
   },
   {
     "id": 96,
-    "image": "/commercial/sofa (43).jpg",
-    "category": "Commercial",
-    "uid": "com96"
+    "image": "/education/edu (17).jpg",
+    "category": "education",
+    "uid": "edu96"
   },
   {
     "id": 97,
-    "image": "/commercial/sofa (44).jpg",
-    "category": "Commercial",
-    "uid": "com97"
+    "image": "/education/edu (18).jpg",
+    "category": "education",
+    "uid": "edu97"
   },
   {
     "id": 98,
-    "image": "/commercial/sofa (45).jpg",
-    "category": "Commercial",
-    "uid": "com98"
+    "image": "/education/edu (19).jpg",
+    "category": "education",
+    "uid": "edu98"
   },
   {
     "id": 99,
-    "image": "/commercial/sofa (46).jpg",
-    "category": "Commercial",
-    "uid": "com99"
+    "image": "/education/edu (2).jpg",
+    "category": "education",
+    "uid": "edu99"
   },
   {
     "id": 100,
-    "image": "/commercial/sofa (47).jpg",
-    "category": "Commercial",
-    "uid": "com100"
+    "image": "/education/edu (20).jpg",
+    "category": "education",
+    "uid": "edu100"
   },
   {
     "id": 101,
-    "image": "/commercial/sofa (48).jpg",
-    "category": "Commercial",
-    "uid": "com101"
+    "image": "/education/edu (21).jpg",
+    "category": "education",
+    "uid": "edu101"
   },
   {
     "id": 102,
-    "image": "/commercial/sofa (49).jpg",
-    "category": "Commercial",
-    "uid": "com102"
+    "image": "/education/edu (22).jpg",
+    "category": "education",
+    "uid": "edu102"
   },
   {
     "id": 103,
-    "image": "/commercial/sofa (5).jpg",
-    "category": "Commercial",
-    "uid": "com103"
+    "image": "/education/edu (23).jpg",
+    "category": "education",
+    "uid": "edu103"
   },
   {
     "id": 104,
-    "image": "/commercial/sofa (50).jpg",
-    "category": "Commercial",
-    "uid": "com104"
+    "image": "/education/edu (24).jpg",
+    "category": "education",
+    "uid": "edu104"
   },
   {
     "id": 105,
-    "image": "/commercial/sofa (51).jpg",
-    "category": "Commercial",
-    "uid": "com105"
+    "image": "/education/edu (25).jpg",
+    "category": "education",
+    "uid": "edu105"
   },
   {
     "id": 106,
-    "image": "/commercial/sofa (52).jpg",
-    "category": "Commercial",
-    "uid": "com106"
+    "image": "/education/edu (26).jpg",
+    "category": "education",
+    "uid": "edu106"
   },
   {
     "id": 107,
-    "image": "/commercial/sofa (53).jpg",
-    "category": "Commercial",
-    "uid": "com107"
+    "image": "/education/edu (27).jpg",
+    "category": "education",
+    "uid": "edu107"
   },
   {
     "id": 108,
-    "image": "/commercial/sofa (54).jpg",
-    "category": "Commercial",
-    "uid": "com108"
+    "image": "/education/edu (28).jpg",
+    "category": "education",
+    "uid": "edu108"
   },
   {
     "id": 109,
-    "image": "/commercial/sofa (55).jpg",
-    "category": "Commercial",
-    "uid": "com109"
+    "image": "/education/edu (29).jpg",
+    "category": "education",
+    "uid": "edu109"
   },
   {
     "id": 110,
-    "image": "/commercial/sofa (56).jpg",
-    "category": "Commercial",
-    "uid": "com110"
+    "image": "/education/edu (3).jpg",
+    "category": "education",
+    "uid": "edu110"
   },
   {
     "id": 111,
-    "image": "/commercial/sofa (57).jpg",
-    "category": "Commercial",
-    "uid": "com111"
+    "image": "/education/edu (30).jpg",
+    "category": "education",
+    "uid": "edu111"
   },
   {
     "id": 112,
-    "image": "/commercial/sofa (58).jpg",
-    "category": "Commercial",
-    "uid": "com112"
+    "image": "/education/edu (31).jpg",
+    "category": "education",
+    "uid": "edu112"
   },
   {
     "id": 113,
-    "image": "/commercial/sofa (59).jpg",
-    "category": "Commercial",
-    "uid": "com113"
+    "image": "/education/edu (32).jpg",
+    "category": "education",
+    "uid": "edu113"
   },
   {
     "id": 114,
-    "image": "/commercial/sofa (6).jpg",
-    "category": "Commercial",
-    "uid": "com114"
+    "image": "/education/edu (33).jpg",
+    "category": "education",
+    "uid": "edu114"
   },
   {
     "id": 115,
-    "image": "/commercial/sofa (60).jpg",
-    "category": "Commercial",
-    "uid": "com115"
+    "image": "/education/edu (34).jpg",
+    "category": "education",
+    "uid": "edu115"
   },
   {
     "id": 116,
-    "image": "/commercial/sofa (61).jpg",
-    "category": "Commercial",
-    "uid": "com116"
+    "image": "/education/edu (35).jpg",
+    "category": "education",
+    "uid": "edu116"
   },
   {
     "id": 117,
-    "image": "/commercial/sofa (62).jpg",
-    "category": "Commercial",
-    "uid": "com117"
+    "image": "/education/edu (36).jpg",
+    "category": "education",
+    "uid": "edu117"
   },
   {
     "id": 118,
-    "image": "/commercial/sofa (63).jpg",
-    "category": "Commercial",
-    "uid": "com118"
+    "image": "/education/edu (37).jpg",
+    "category": "education",
+    "uid": "edu118"
   },
   {
     "id": 119,
-    "image": "/commercial/sofa (64).jpg",
-    "category": "Commercial",
-    "uid": "com119"
+    "image": "/education/edu (38).jpg",
+    "category": "education",
+    "uid": "edu119"
   },
   {
     "id": 120,
-    "image": "/commercial/sofa (65).jpg",
-    "category": "Commercial",
-    "uid": "com120"
+    "image": "/education/edu (39).jpg",
+    "category": "education",
+    "uid": "edu120"
   },
   {
     "id": 121,
-    "image": "/commercial/sofa (66).jpg",
-    "category": "Commercial",
-    "uid": "com121"
+    "image": "/education/edu (4).jpg",
+    "category": "education",
+    "uid": "edu121"
   },
   {
     "id": 122,
-    "image": "/commercial/sofa (7).jpg",
-    "category": "Commercial",
-    "uid": "com122"
+    "image": "/education/edu (40).jpg",
+    "category": "education",
+    "uid": "edu122"
   },
   {
     "id": 123,
-    "image": "/commercial/sofa (8).jpg",
-    "category": "Commercial",
-    "uid": "com123"
+    "image": "/education/edu (41).jpg",
+    "category": "education",
+    "uid": "edu123"
   },
   {
     "id": 124,
-    "image": "/commercial/sofa (9).jpg",
-    "category": "Commercial",
-    "uid": "com124"
+    "image": "/education/edu (5).jpg",
+    "category": "education",
+    "uid": "edu124"
   },
   {
     "id": 125,
-    "image": "/commercial/sofa1.png",
-    "category": "Commercial",
-    "uid": "com125"
+    "image": "/education/edu (6).jpg",
+    "category": "education",
+    "uid": "edu125"
   },
   {
     "id": 126,
-    "image": "/commercial/sofa2.png",
-    "category": "Commercial",
-    "uid": "com126"
+    "image": "/education/edu (7).jpg",
+    "category": "education",
+    "uid": "edu126"
   },
   {
     "id": 127,
-    "image": "/commercial/sofa3.png",
-    "category": "Commercial",
-    "uid": "com127"
+    "image": "/education/edu (8).jpg",
+    "category": "education",
+    "uid": "edu127"
   },
   {
     "id": 128,
-    "image": "/commercial/sofa4.png",
-    "category": "Commercial",
-    "uid": "com128"
+    "image": "/education/edu (9).jpg",
+    "category": "education",
+    "uid": "edu128"
   },
   {
     "id": 129,
-    "image": "/commercial/sofa5.png",
-    "category": "Commercial",
-    "uid": "com129"
+    "image": "/health/health (1).jpg",
+    "category": "health",
+    "uid": "hea129"
   },
   {
     "id": 130,
-    "image": "/commercial/sofa_5.png",
-    "category": "Commercial",
-    "uid": "com130"
+    "image": "/health/health (2).jpg",
+    "category": "health",
+    "uid": "hea130"
   },
   {
     "id": 131,
-    "image": "/commercial/tbl (1).jpg",
-    "category": "Commercial",
-    "uid": "com131"
+    "image": "/health/health (3).jpg",
+    "category": "health",
+    "uid": "hea131"
   },
   {
     "id": 132,
-    "image": "/commercial/tbl (1).png",
-    "category": "Commercial",
-    "uid": "com132"
+    "image": "/health/health (4).jpg",
+    "category": "health",
+    "uid": "hea132"
   },
   {
     "id": 133,
-    "image": "/commercial/tbl (10).jpg",
-    "category": "Commercial",
-    "uid": "com133"
+    "image": "/health/health (5).jpg",
+    "category": "health",
+    "uid": "hea133"
   },
   {
     "id": 134,
-    "image": "/commercial/tbl (10).png",
-    "category": "Commercial",
-    "uid": "com134"
+    "image": "/health/health (6).jpg",
+    "category": "health",
+    "uid": "hea134"
   },
   {
     "id": 135,
-    "image": "/commercial/tbl (11).jpg",
-    "category": "Commercial",
-    "uid": "com135"
+    "image": "/health/health (7).jpg",
+    "category": "health",
+    "uid": "hea135"
   },
   {
     "id": 136,
-    "image": "/commercial/tbl (11).png",
-    "category": "Commercial",
-    "uid": "com136"
+    "image": "/health/health (8).jpg",
+    "category": "health",
+    "uid": "hea136"
   },
   {
     "id": 137,
-    "image": "/commercial/tbl (12).jpg",
-    "category": "Commercial",
-    "uid": "com137"
+    "image": "/hospitality/hospitality (1).jpg",
+    "category": "hospitality",
+    "uid": "hos137"
   },
   {
     "id": 138,
-    "image": "/commercial/tbl (12).png",
-    "category": "Commercial",
-    "uid": "com138"
+    "image": "/hospitality/hospitality (10).jpg",
+    "category": "hospitality",
+    "uid": "hos138"
   },
   {
     "id": 139,
-    "image": "/commercial/tbl (13).jpg",
-    "category": "Commercial",
-    "uid": "com139"
+    "image": "/hospitality/hospitality (11).jpg",
+    "category": "hospitality",
+    "uid": "hos139"
   },
   {
     "id": 140,
-    "image": "/commercial/tbl (13).png",
-    "category": "Commercial",
-    "uid": "com140"
+    "image": "/hospitality/hospitality (12).jpg",
+    "category": "hospitality",
+    "uid": "hos140"
   },
   {
     "id": 141,
-    "image": "/commercial/tbl (14).jpg",
-    "category": "Commercial",
-    "uid": "com141"
+    "image": "/hospitality/hospitality (13).jpg",
+    "category": "hospitality",
+    "uid": "hos141"
   },
   {
     "id": 142,
-    "image": "/commercial/tbl (14).png",
-    "category": "Commercial",
-    "uid": "com142"
+    "image": "/hospitality/hospitality (14).jpg",
+    "category": "hospitality",
+    "uid": "hos142"
   },
   {
     "id": 143,
-    "image": "/commercial/tbl (15).jpg",
-    "category": "Commercial",
-    "uid": "com143"
+    "image": "/hospitality/hospitality (15).jpg",
+    "category": "hospitality",
+    "uid": "hos143"
   },
   {
     "id": 144,
-    "image": "/commercial/tbl (15).png",
-    "category": "Commercial",
-    "uid": "com144"
+    "image": "/hospitality/hospitality (16).jpg",
+    "category": "hospitality",
+    "uid": "hos144"
   },
   {
     "id": 145,
-    "image": "/commercial/tbl (16).jpg",
-    "category": "Commercial",
-    "uid": "com145"
+    "image": "/hospitality/hospitality (17).jpg",
+    "category": "hospitality",
+    "uid": "hos145"
   },
   {
     "id": 146,
-    "image": "/commercial/tbl (17).jpg",
-    "category": "Commercial",
-    "uid": "com146"
+    "image": "/hospitality/hospitality (18).jpg",
+    "category": "hospitality",
+    "uid": "hos146"
   },
   {
     "id": 147,
-    "image": "/commercial/tbl (18).jpg",
-    "category": "Commercial",
-    "uid": "com147"
+    "image": "/hospitality/hospitality (19).jpg",
+    "category": "hospitality",
+    "uid": "hos147"
   },
   {
     "id": 148,
-    "image": "/commercial/tbl (19).jpg",
-    "category": "Commercial",
-    "uid": "com148"
+    "image": "/hospitality/hospitality (2).jpg",
+    "category": "hospitality",
+    "uid": "hos148"
   },
   {
     "id": 149,
-    "image": "/commercial/tbl (2).jpg",
-    "category": "Commercial",
-    "uid": "com149"
+    "image": "/hospitality/hospitality (20).jpg",
+    "category": "hospitality",
+    "uid": "hos149"
   },
   {
     "id": 150,
-    "image": "/commercial/tbl (2).png",
-    "category": "Commercial",
-    "uid": "com150"
+    "image": "/hospitality/hospitality (21).jpg",
+    "category": "hospitality",
+    "uid": "hos150"
   },
   {
     "id": 151,
-    "image": "/commercial/tbl (20).jpg",
-    "category": "Commercial",
-    "uid": "com151"
+    "image": "/hospitality/hospitality (22).jpg",
+    "category": "hospitality",
+    "uid": "hos151"
   },
   {
     "id": 152,
-    "image": "/commercial/tbl (21).jpg",
-    "category": "Commercial",
-    "uid": "com152"
+    "image": "/hospitality/hospitality (23).jpg",
+    "category": "hospitality",
+    "uid": "hos152"
   },
   {
     "id": 153,
-    "image": "/commercial/tbl (22).jpg",
-    "category": "Commercial",
-    "uid": "com153"
+    "image": "/hospitality/hospitality (24).jpg",
+    "category": "hospitality",
+    "uid": "hos153"
   },
   {
     "id": 154,
-    "image": "/commercial/tbl (23).jpg",
-    "category": "Commercial",
-    "uid": "com154"
+    "image": "/hospitality/hospitality (25).jpg",
+    "category": "hospitality",
+    "uid": "hos154"
   },
   {
     "id": 155,
-    "image": "/commercial/tbl (24).jpg",
-    "category": "Commercial",
-    "uid": "com155"
+    "image": "/hospitality/hospitality (26).jpg",
+    "category": "hospitality",
+    "uid": "hos155"
   },
   {
     "id": 156,
-    "image": "/commercial/tbl (25).jpg",
-    "category": "Commercial",
-    "uid": "com156"
+    "image": "/hospitality/hospitality (27).jpg",
+    "category": "hospitality",
+    "uid": "hos156"
   },
   {
     "id": 157,
-    "image": "/commercial/tbl (26).jpg",
-    "category": "Commercial",
-    "uid": "com157"
+    "image": "/hospitality/hospitality (28).jpg",
+    "category": "hospitality",
+    "uid": "hos157"
   },
   {
     "id": 158,
-    "image": "/commercial/tbl (27).jpg",
-    "category": "Commercial",
-    "uid": "com158"
+    "image": "/hospitality/hospitality (29).jpg",
+    "category": "hospitality",
+    "uid": "hos158"
   },
   {
     "id": 159,
-    "image": "/commercial/tbl (3).jpg",
-    "category": "Commercial",
-    "uid": "com159"
+    "image": "/hospitality/hospitality (3).jpg",
+    "category": "hospitality",
+    "uid": "hos159"
   },
   {
     "id": 160,
-    "image": "/commercial/tbl (3).png",
-    "category": "Commercial",
-    "uid": "com160"
+    "image": "/hospitality/hospitality (30).jpg",
+    "category": "hospitality",
+    "uid": "hos160"
   },
   {
     "id": 161,
-    "image": "/commercial/tbl (4).jpg",
-    "category": "Commercial",
-    "uid": "com161"
+    "image": "/hospitality/hospitality (31).jpg",
+    "category": "hospitality",
+    "uid": "hos161"
   },
   {
     "id": 162,
-    "image": "/commercial/tbl (4).png",
-    "category": "Commercial",
-    "uid": "com162"
+    "image": "/hospitality/hospitality (32).jpg",
+    "category": "hospitality",
+    "uid": "hos162"
   },
   {
     "id": 163,
-    "image": "/commercial/tbl (5).jpg",
-    "category": "Commercial",
-    "uid": "com163"
+    "image": "/hospitality/hospitality (33).jpg",
+    "category": "hospitality",
+    "uid": "hos163"
   },
   {
     "id": 164,
-    "image": "/commercial/tbl (5).png",
-    "category": "Commercial",
-    "uid": "com164"
+    "image": "/hospitality/hospitality (34).jpg",
+    "category": "hospitality",
+    "uid": "hos164"
   },
   {
     "id": 165,
-    "image": "/commercial/tbl (6).jpg",
-    "category": "Commercial",
-    "uid": "com165"
+    "image": "/hospitality/hospitality (35).jpg",
+    "category": "hospitality",
+    "uid": "hos165"
   },
   {
     "id": 166,
-    "image": "/commercial/tbl (6).png",
-    "category": "Commercial",
-    "uid": "com166"
+    "image": "/hospitality/hospitality (36).jpg",
+    "category": "hospitality",
+    "uid": "hos166"
   },
   {
     "id": 167,
-    "image": "/commercial/tbl (7).jpg",
-    "category": "Commercial",
-    "uid": "com167"
+    "image": "/hospitality/hospitality (37).jpg",
+    "category": "hospitality",
+    "uid": "hos167"
   },
   {
     "id": 168,
-    "image": "/commercial/tbl (7).png",
-    "category": "Commercial",
-    "uid": "com168"
+    "image": "/hospitality/hospitality (38).jpg",
+    "category": "hospitality",
+    "uid": "hos168"
   },
   {
     "id": 169,
-    "image": "/commercial/tbl (8).jpg",
-    "category": "Commercial",
-    "uid": "com169"
+    "image": "/hospitality/hospitality (39).jpg",
+    "category": "hospitality",
+    "uid": "hos169"
   },
   {
     "id": 170,
-    "image": "/commercial/tbl (8).png",
-    "category": "Commercial",
-    "uid": "com170"
+    "image": "/hospitality/hospitality (4).jpg",
+    "category": "hospitality",
+    "uid": "hos170"
   },
   {
     "id": 171,
-    "image": "/commercial/tbl (9).jpg",
-    "category": "Commercial",
-    "uid": "com171"
+    "image": "/hospitality/hospitality (40).jpg",
+    "category": "hospitality",
+    "uid": "hos171"
   },
   {
     "id": 172,
-    "image": "/commercial/tbl (9).png",
-    "category": "Commercial",
-    "uid": "com172"
+    "image": "/hospitality/hospitality (41).jpg",
+    "category": "hospitality",
+    "uid": "hos172"
+  },
+  {
+    "id": 173,
+    "image": "/hospitality/hospitality (5).jpg",
+    "category": "hospitality",
+    "uid": "hos173"
+  },
+  {
+    "id": 174,
+    "image": "/hospitality/hospitality (6).jpg",
+    "category": "hospitality",
+    "uid": "hos174"
+  },
+  {
+    "id": 175,
+    "image": "/hospitality/hospitality (7).jpg",
+    "category": "hospitality",
+    "uid": "hos175"
+  },
+  {
+    "id": 176,
+    "image": "/hospitality/hospitality (8).jpg",
+    "category": "hospitality",
+    "uid": "hos176"
+  },
+  {
+    "id": 177,
+    "image": "/hospitality/hospitality (9).jpg",
+    "category": "hospitality",
+    "uid": "hos177"
+  },
+  {
+    "id": 178,
+    "image": "/public/public (1).jpg",
+    "category": "public",
+    "uid": "pub178"
+  },
+  {
+    "id": 179,
+    "image": "/public/public (10).jpg",
+    "category": "public",
+    "uid": "pub179"
+  },
+  {
+    "id": 180,
+    "image": "/public/public (11).jpg",
+    "category": "public",
+    "uid": "pub180"
+  },
+  {
+    "id": 181,
+    "image": "/public/public (12).jpg",
+    "category": "public",
+    "uid": "pub181"
+  },
+  {
+    "id": 182,
+    "image": "/public/public (13).jpg",
+    "category": "public",
+    "uid": "pub182"
+  },
+  {
+    "id": 183,
+    "image": "/public/public (14).jpg",
+    "category": "public",
+    "uid": "pub183"
+  },
+  {
+    "id": 184,
+    "image": "/public/public (15).jpg",
+    "category": "public",
+    "uid": "pub184"
+  },
+  {
+    "id": 185,
+    "image": "/public/public (16).jpg",
+    "category": "public",
+    "uid": "pub185"
+  },
+  {
+    "id": 186,
+    "image": "/public/public (17).jpg",
+    "category": "public",
+    "uid": "pub186"
+  },
+  {
+    "id": 187,
+    "image": "/public/public (18).jpg",
+    "category": "public",
+    "uid": "pub187"
+  },
+  {
+    "id": 188,
+    "image": "/public/public (19).jpg",
+    "category": "public",
+    "uid": "pub188"
+  },
+  {
+    "id": 189,
+    "image": "/public/public (2).jpg",
+    "category": "public",
+    "uid": "pub189"
+  },
+  {
+    "id": 190,
+    "image": "/public/public (20).jpg",
+    "category": "public",
+    "uid": "pub190"
+  },
+  {
+    "id": 191,
+    "image": "/public/public (21).jpg",
+    "category": "public",
+    "uid": "pub191"
+  },
+  {
+    "id": 192,
+    "image": "/public/public (22).jpg",
+    "category": "public",
+    "uid": "pub192"
+  },
+  {
+    "id": 193,
+    "image": "/public/public (23).jpg",
+    "category": "public",
+    "uid": "pub193"
+  },
+  {
+    "id": 194,
+    "image": "/public/public (24).jpg",
+    "category": "public",
+    "uid": "pub194"
+  },
+  {
+    "id": 195,
+    "image": "/public/public (25).jpg",
+    "category": "public",
+    "uid": "pub195"
+  },
+  {
+    "id": 196,
+    "image": "/public/public (26).jpg",
+    "category": "public",
+    "uid": "pub196"
+  },
+  {
+    "id": 197,
+    "image": "/public/public (27).jpg",
+    "category": "public",
+    "uid": "pub197"
+  },
+  {
+    "id": 198,
+    "image": "/public/public (28).jpg",
+    "category": "public",
+    "uid": "pub198"
+  },
+  {
+    "id": 199,
+    "image": "/public/public (29).jpg",
+    "category": "public",
+    "uid": "pub199"
+  },
+  {
+    "id": 200,
+    "image": "/public/public (3).jpg",
+    "category": "public",
+    "uid": "pub200"
+  },
+  {
+    "id": 201,
+    "image": "/public/public (30).jpg",
+    "category": "public",
+    "uid": "pub201"
+  },
+  {
+    "id": 202,
+    "image": "/public/public (31).jpg",
+    "category": "public",
+    "uid": "pub202"
+  },
+  {
+    "id": 203,
+    "image": "/public/public (32).jpg",
+    "category": "public",
+    "uid": "pub203"
+  },
+  {
+    "id": 204,
+    "image": "/public/public (33).jpg",
+    "category": "public",
+    "uid": "pub204"
+  },
+  {
+    "id": 205,
+    "image": "/public/public (34).jpg",
+    "category": "public",
+    "uid": "pub205"
+  },
+  {
+    "id": 206,
+    "image": "/public/public (4).jpg",
+    "category": "public",
+    "uid": "pub206"
+  },
+  {
+    "id": 207,
+    "image": "/public/public (5).jpg",
+    "category": "public",
+    "uid": "pub207"
+  },
+  {
+    "id": 208,
+    "image": "/public/public (6).jpg",
+    "category": "public",
+    "uid": "pub208"
+  },
+  {
+    "id": 209,
+    "image": "/public/public (7).jpg",
+    "category": "public",
+    "uid": "pub209"
+  },
+  {
+    "id": 210,
+    "image": "/public/public (8).jpg",
+    "category": "public",
+    "uid": "pub210"
+  },
+  {
+    "id": 211,
+    "image": "/public/public (9).jpg",
+    "category": "public",
+    "uid": "pub211"
   }
 ]

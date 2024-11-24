@@ -11,13 +11,13 @@ import NotFound from '@components/NotFound';
 const ProductDetails = ({ }) => {
   const location = useLocation();
   const params = useParams()
-  const id = params.id
+  const id = Number(params.id)
   const phoneNumber = bio.phone;
   const allProducts = useAllProducts()
 
-  const { title, category, uid } = location.state || { title: '' };
-  const productUrl = `https://localhost:5173/product/${id}`;
-  console.log(uid, id);
+  const { category, uid } = location.state || { title: '' };
+  const productUrl = `https://promax-oid0.onrender.com/product/${id}`;
+  console.log(uid,  Number(id));
 
   // Generate the WhatsApp message
   const whatsappMessage =
@@ -36,43 +36,45 @@ ${productUrl}
 
   useEffect(() => {
     scrollToTop()
-    const product = allProducts.find((product) => product.uid === uid) || null;
+    console.log(allProducts);
 
-    const filterProduct = allProducts.filter((product) => (product.category === category) && (product.uid !== uid));
+    const product = allProducts.find((product) =>  product.id === id);
+
+    const filterProduct = allProducts.filter((pro) => (pro.category === category||pro.category === product.category) && (pro.id !== id));
     setProductDetails(product);
     setSimilarProducts(filterProduct.slice(0, 10));
-  }, [category, uid, allProducts]);
+  }, [category, uid, allProducts, id]);
 
   if (loading) {
     return (
       <Spinner />
     )
   }
-  if (uid === undefined) {
-    return <NotFound/>
+  if (setProductDetails.length === 0) {
+    return <NotFound />
   }
 
   return (
     <div className='pt-28'>
       <div className="container mx-auto px-4 py-6 pt-20">
         <div className="flex flex-col items-center gap-2 w-5/6 mx-auto">
-        <img
-              className=" rounded-lg h-96 w-full object-cover"
-              src={productDetails?.image}
-              style={{ boxShadow: ' 1px 1px 8px gray'  }}
-              alt="Your alt text"
-            />
-            <div className="mt-4 text-center">
-              <a
-                href={whatsappLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex justify-center items-center space-x-2 p-2"
-              >
-                <FaWhatsapp color="#25D366" size={24} />
-                <span className="text-sm">Share on WhatsApp</span>
-              </a>
-            </div>
+          <img
+            className=" rounded-lg h-96 w-full object-cover"
+            src={productDetails?.image}
+            style={{ boxShadow: ' 1px 1px 8px gray' }}
+            alt="Your alt text"
+          />
+          <div className="mt-4 text-center">
+            <a
+              href={whatsappLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex justify-center items-center space-x-2 p-2"
+            >
+              <FaWhatsapp color="#25D366" size={24} />
+              <span className="text-sm">Share on WhatsApp</span>
+            </a>
+          </div>
 
           {/* <div className="md:w-1/2 w-full text-center md:text-left">
             <h1 className="text-3xl font-semibold mb-4">{'params.productId'}</h1>

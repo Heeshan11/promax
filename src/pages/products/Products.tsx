@@ -1,19 +1,5 @@
 import { useLocation } from "react-router-dom";
 import ProductCard from "@components/ProductCard";
-import {
-  AllSolutionProducts,
-  commericalProducts,
-  educationProducts,
-  healthCareProducts,
-  hospitalityProducts,
-  MainCategories,
-  office_chair,
-  publicSpaceProducts,
-  restaurantProducts,
-  sitingProducts,
-  subCategories,
-  tblProducts
-} from "@data/constants";
 import { useEffect, useState } from "react";
 import { IProduct } from "../../interface/interface";
 import { useAllProducts, useLoading, useScrollToTop } from "@app/context/MainProvider";
@@ -29,6 +15,7 @@ const Products = () => {
   const scrollToTop = useScrollToTop();
   const allProducts = useAllProducts()
   const loading = useLoading(); // Get loading state from context
+  console.log(" alll e",allProducts);
 
   useEffect(() => {
     scrollToTop()
@@ -37,7 +24,6 @@ const Products = () => {
 
 products = allProducts.filter((product) => product.category.toLowerCase() === category.toLowerCase())
 } else {
-      console.log(" alll e");
 
       products = [...allProducts].sort(() => Math.random() - 0.5);
     }
